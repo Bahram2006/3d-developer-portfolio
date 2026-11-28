@@ -13,7 +13,7 @@ const ShowcaseSection = () => {
 
     const projects = [project1Ref.current, project2Ref.current, project3Ref.current];
 
-    cards.forEach((card, index) => {
+    projects.forEach((card, index) => {
         gsap.fromTo(
             card,
             {
